@@ -1,0 +1,8 @@
+requests
+datetime
+pandas
+plotly
+streamlit
+pybaseball
+numpy
+re
