@@ -590,7 +590,7 @@ if st.sidebar.button("Clear cache"):
     st.cache_data.clear()
     st.rerun()
 
-st.title("Pitch Movement by Game (Statcast / Live Fallback)")
+st.title("Pitch Movement Changes")
 
 st.sidebar.header("Step 1: Select Date")
 selected_date = st.sidebar.date_input("Game date", value=date.today())
